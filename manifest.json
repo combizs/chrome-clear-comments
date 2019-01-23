@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Clear Comments",
+  "description": "Chrome extension to help you hide the comments from the template of a domain.",
+  "version": "1",
+  "author": "Combiz Saleh",
+  "browser_action": {
+    "default_title": "Ready, clear!"
+  },
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
